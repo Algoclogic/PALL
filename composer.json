@@ -1,0 +1,29 @@
+{
+
+  "name": "algoclogic/pall",
+  "description": "Laravel library for Amazon Product Advertising API.",
+  "keywords": ["amazon", "product davertising", "api", "laravel", "algoclogic"],
+  "homepage": "http://algoclogic.com/PALL",
+
+  "license": "MIT",
+  "authors": [
+    {
+        "name": "Danish M Mir",
+        "email": "mirdanishmajeed@gmail.com"
+    }
+  ],
+  "type": "project",
+  "require": {
+    "php": ">=5.5",
+    "illuminate/support": "~5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.4.*",
+    "orchestra/testbench": "~3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Algoclogic\\PALL\\": "src/"
+    }
+  }
+}
