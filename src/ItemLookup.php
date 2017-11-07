@@ -148,21 +148,17 @@ class ItemLookup
 
         // Get cURL resource
         $curl = curl_init();
-// Set some options - we are passing in a useragent too here
+        // Set some options - we are passing in a useragent too here
         curl_setopt_array($curl, array(
             CURLOPT_RETURNTRANSFER => 'TRUE',
             CURLOPT_URL => $signedURL,
         ));
-// Send the request & save response to $resp
+        // Send the request & save response to $resp
         $resp = curl_exec($curl);
-// Close request to clear up some resources
+        // Close request to clear up some resources
         curl_close($curl);
         $xml = new \SimpleXMLElement($resp);
-        echo "<pre>";
-        print_r($xml);
-//        return array(
-//
-//        );
+        return $xml;
 
         return null;
 
