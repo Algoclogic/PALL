@@ -15,7 +15,7 @@
   "type": "library",
   "require": {
     "php": ">=5.5",
-    "illuminate/support": "~5"
+    "illuminate/support": "~5",
     "ext-cURL": ">=5.*"
   },
   "require-dev": {
