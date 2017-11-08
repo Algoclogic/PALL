@@ -3,6 +3,8 @@ Product Advertising Laravel Library
 [![Package version](https://img.shields.io/packagist/v/algoclogic/pall.svg?style=flat-square)](https://packagist.org/packages/algoclogic/pall)
 [![Monthly downloads](http://img.shields.io/packagist/dm/algoclogic/pall.svg?style=flat-square)](https://packagist.org/packages/algoclogic/pall)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![PHPPackages Rank](http://phppackages.org/p/algoclogic/pall/badge/rank.svg)](http://phppackages.org/p/algoclogic/pall)
+[![PHPPackages Referenced By](http://phppackages.org/p/algoclogic/pall/badge/referenced-by.svg)](http://phppackages.org/p/algoclogic/pall)
 [![Made out of awesome](https://img.shields.io/badge/made_out_of_awesome-✓-brightgreen.svg?style=flat-square)](http://algoclogic.com)
 
 PALL is [Laravel 5.5.*](https://laravel.com/docs/5.5/releases#laravel-5.5) ready library for the [Product Advertising API](http://docs.aws.amazon.com/AWSECommerceService/latest/DG/Welcome.html) of Amazon. The process has been made a piece of cake.
