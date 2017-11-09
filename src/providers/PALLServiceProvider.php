@@ -29,7 +29,6 @@ class PALLServiceProvider extends ServiceProvider
         //
         $this->mergeConfigFrom(
             realpath(__DIR__.'/..') . '/config/amazoncredentials.php', 'pall'
-
         );
     }
 }
