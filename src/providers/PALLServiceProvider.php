@@ -15,7 +15,7 @@ class PALLServiceProvider extends ServiceProvider
     {
         //
         $this->publishes([
-            __DIR__ . '/config' => config_path(''),
+            realpath(__DIR__.'/..') . '/config/' => config_path(''),
         ]);
     }
 
@@ -28,7 +28,8 @@ class PALLServiceProvider extends ServiceProvider
     {
         //
         $this->mergeConfigFrom(
-            __DIR__ . '/config/amazoncredentials.php', 'pall'
+            realpath(__DIR__.'/..') . '/config/amazoncredentials.php', 'pall'
+
         );
     }
 }
