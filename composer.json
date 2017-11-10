@@ -16,7 +16,7 @@
   "require": {
     "php": ">=5.5",
     "illuminate/support": "~5",
-    "ext-cURL": "5.0"
+    "ext-cURL": ">=7.0"
   },
   "require-dev": {
     "phpunit/phpunit": "6.4.*",
