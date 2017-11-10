@@ -114,8 +114,7 @@ class SimilarityLookup
         // Close request to clear up some resources
         curl_close($curl);
         // return Response::make($resp, '200')->header('Content-Type', 'text/xml');
-        $xml = new \SimpleXMLElement($resp);
-        return $xml;
+        return $resp;
 
     }
     private function validConfig()

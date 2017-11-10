@@ -188,8 +188,7 @@ class ItemSearch
         curl_close($curl);
         echo "<pre>";
         echo htmlentities($resp);
-        $xml = new \SimpleXMLElement($resp);
-        return $xml;
+        return $resp;
 
     }
     private function validConfig()

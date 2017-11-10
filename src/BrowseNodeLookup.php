@@ -73,8 +73,7 @@ class BrowseNodeLookup{
         $resp = curl_exec($curl);
         // Close request to clear up some resources
         curl_close($curl);
-        $xml = new \SimpleXMLElement($resp);
-        return $xml;
+        return $resp;
     }
     private function validConfig()
     {
